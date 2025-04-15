@@ -16,6 +16,8 @@ Impacket
 # ToDo
 1. Make it work with Slack, Teams, email etc. so blue teams can run it...?
 2. Include file type filters like .docx, .pdf, .odt, and specific keyword search inside files.
+3. Add functionality to resume and skipped already scanned IPs in case you end up breaking something... :)
+4. Keyword detection in file names...? 
 
 # Features.
 ## For CSV:
