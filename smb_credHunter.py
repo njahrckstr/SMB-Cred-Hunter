@@ -103,7 +103,7 @@ def worker(host_queue, creds, max_attempts):
 
 # Get the target set and filter out any excluded targets if applicable
 def get_targets(ip_input, exclude_list):
-    # Build out set of IPs to exclude
+    # Determine IPs to exclude
     excluded_ips = set()
     for exclusion in exclude_list:
         try:
